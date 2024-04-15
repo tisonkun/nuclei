@@ -39,7 +39,6 @@ mod proactor;
 mod submission_handler;
 mod sys;
 mod utils;
-mod waker;
 
 #[cfg(not(any(
     target_os = "linux",     // epoll, iouring

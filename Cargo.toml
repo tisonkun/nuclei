@@ -55,6 +55,7 @@ once_cell = "1.19.0"
 os_socketaddr = "0.2.5"
 ahash = "0.8.7"
 async-global-executor = { version = "2.4", optional = true, features = ["async-io"] }
+waker-fn = "1.1.1"
 
 # Other backends
 [target.'cfg(target_os = "linux")'.dependencies]

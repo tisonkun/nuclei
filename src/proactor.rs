@@ -4,9 +4,9 @@ use std::{future::Future, io};
 
 use crate::config::NucleiConfig;
 use once_cell::sync::OnceCell;
+use waker_fn::waker_fn;
 
 use super::syscore::*;
-use super::waker::*;
 use crate::spawn_blocking;
 use crate::sys::IoBackend;
 
